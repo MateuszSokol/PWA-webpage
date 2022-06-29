@@ -8,11 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main{
-    background-color: antiquewhite;
-}
 header{
-    background-color: antiquewhite;
     height: 100vh;
     background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/7581d7a48eab6ee183af21a24abd2f97.png') ;
     background-position: 50% center;
@@ -69,7 +65,6 @@ h1{
 footer{
     margin: 10px;
     padding: 20px;
-    background-color: rgb(130, 216, 228);
 }
 
 footer p{
