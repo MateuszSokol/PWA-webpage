@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: antiquewhite;
+}
+header{
+    background-color: antiquewhite;
+    height: 100vh;
+    background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/7581d7a48eab6ee183af21a24abd2f97.png') ;
+    background-position: 50% center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: red;
+    background-color:rgb(255 255 255 / 57%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.img{
+    height: 30vh;
+    display: block;
+    background-image: url('https://cdn.pixabay.com/photo/2019/11/08/11/56/kitten-4611189_960_720.jpg') ;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 400px;
+
+  
+   
+    
+    align-items: center;
+
+}
+
+
+ p {
+    line-height: 2;
+    
+}
+
+.media{
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+}
+
+footer{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(130, 216, 228);
+}
+
+footer p{
+    text-align: center;
+
+    font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cats{
+        width: 30%;
+    }
+}
